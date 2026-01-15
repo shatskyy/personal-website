@@ -1,0 +1,26 @@
+{
+  "name": "David Shatsky",
+  "bio": "I'm a Data Science Grad passionate about building things and learning new technologies. This is my personal space where I share my projects, thoughts, and curated content.",
+  "email": "shatsky.david@gmail.com",
+  "github": "https://github.com/shatskyy",
+  "linkedin": "https://linkedin.com/in/david-shatsky",
+  "skills": [
+    "Python",
+    "SQL",
+    "Excel"
+  ],
+  "experience": [
+    {
+      "title": "Your Job Title",
+      "company": "Company Name",
+      "period": "2023 - Present",
+      "description": "Brief description of what you do in this role."
+    },
+    {
+      "title": "Previous Job Title",
+      "company": "Previous Company",
+      "period": "2021 - 2023",
+      "description": "Brief description of what you did in this role."
+    }
+  ]
+}

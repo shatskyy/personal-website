@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "title": "Useful Resource",
+    "url": "https://example.com",
+    "category": "Development",
+    "description": "A helpful resource for developers"
+  },
+  {
+    "id": 2,
+    "title": "Learning Material",
+    "url": "https://example.com",
+    "category": "Learning",
+    "description": "Great tutorial or course"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "Project One",
+    "description": "A brief description of your first project",
+    "techStack": ["React", "Node.js", "MongoDB"],
+    "link": "https://github.com/yourusername/project-one",
+    "image": "/projects/project1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Project Two",
+    "description": "A brief description of your second project",
+    "techStack": ["Next.js", "Tailwind CSS", "PostgreSQL"],
+    "link": "https://github.com/yourusername/project-two",
+    "image": "/projects/project2.jpg"
+  }
+]
