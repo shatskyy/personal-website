@@ -1,18 +1,65 @@
 [
   {
     "id": 1,
-    "title": "Project One",
-    "description": "A brief description of your first project",
-    "techStack": ["React", "Node.js", "MongoDB"],
-    "link": "https://github.com/yourusername/project-one",
-    "image": "/projects/project1.jpg"
+    "title": "Weather Prediction Trading System",
+    "description": "Built a fully automated trading system for weather prediction markets. Implemented ensemble forecast calibration with 26% Brier score improvement via seasonal bias correction + isotonic regression, probabilistic edge detection, and Kelly criterion position sizing. Achieved 67% win rate and +14% ROI on live capital.",
+    "techStack": ["Python", "SQL", "Statistical Modeling", "Kelly Criterion", "API Integration"],
+    "link": "https://github.com/shatskyy",
+    "image": "/projects/weather-trading.jpg",
+    "featured": true
   },
   {
     "id": 2,
-    "title": "Project Two",
-    "description": "A brief description of your second project",
-    "techStack": ["Next.js", "Tailwind CSS", "PostgreSQL"],
-    "link": "https://github.com/yourusername/project-two",
-    "image": "/projects/project2.jpg"
+    "title": "Lokin - Startup Automation Platform",
+    "description": "Co-founded and built a platform that automates core startup processes for students. Developed agentic AI tools for profile scraping, teammate matching, competitor analysis, and job description generation. Led product strategy and coordinated cross-functional teams.",
+    "techStack": ["Python", "FastAPI", "Pinecone", "MiniLM Embeddings", "Railway"],
+    "link": "https://github.com/shatskyy",
+    "image": "/projects/lokin.jpg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Semantic Search Engine",
+    "description": "Built semantic search for 76K+ products using MiniLM embeddings and Pinecone DB. Delivers top-10 similar results with TF-IDF keywords via FastAPI/CLI interface. Achieved <300ms latency, deployed on Railway.",
+    "techStack": ["Python", "MiniLM", "Pinecone", "FastAPI", "TF-IDF", "Railway"],
+    "link": "https://github.com/shatskyy",
+    "image": "/projects/semantic-search.jpg",
+    "featured": true
+  },
+  {
+    "id": 4,
+    "title": "Trade Analytics Interface",
+    "description": "Designed a Python + SQL-based agentic AI interface at TP ICAP to query internal trade history. Enabled Broker/Ops self-serve analytics and automated manual retrieval, achieving 3× faster data access.",
+    "techStack": ["Python", "SQL", "Agentic AI", "Data Analytics"],
+    "link": "#",
+    "image": "/projects/trade-analytics.jpg",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Customer Churn Prediction Model",
+    "description": "Built a churn prediction model for a digital bank using XGBoost, achieving 74.5% AUC. Applied feature engineering and explainability techniques to drive actionable customer retention insights.",
+    "techStack": ["Python", "XGBoost", "Scikit-learn", "Feature Engineering", "SHAP"],
+    "link": "https://github.com/shatskyy",
+    "image": "/projects/churn-model.jpg",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "Bike-Share Demand Forecasting",
+    "description": "Led a 4-person team to build bike-share demand forecasting using Random Forest (12% SMAPE) with lag/rolling features. Identified $300K revenue uplift potential and packaged insights into focused recommendations.",
+    "techStack": ["Python", "Random Forest", "Time Series", "Feature Engineering"],
+    "link": "https://github.com/shatskyy",
+    "image": "/projects/bike-share.jpg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Insider Trading Anomaly Detection",
+    "description": "Developed anomaly detection system at Abel Noser to flag potential insider trading using lead-lag analysis on stocks and linked ETFs. Part of post-trade analytics for institutional clients.",
+    "techStack": ["Python", "SQL", "Statistical Analysis", "Lead-Lag Analysis"],
+    "link": "#",
+    "image": "/projects/anomaly-detection.jpg",
+    "featured": false
   }
 ]

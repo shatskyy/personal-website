@@ -1,26 +1,67 @@
 {
   "name": "David Shatsky",
-  "bio": "I'm a Data Science Grad passionate about building things and learning new technologies. This is my personal space where I share my projects, thoughts, and curated content.",
+  "title": "Data Science · Capital Markets · Builder",
+  "bio": "Data Science graduate from UW-Madison with hands-on experience in capital markets and entrepreneurship. Currently a Junior Broker at TP ICAP managing FX options, I've built automated trading systems, agentic AI tools, and co-founded a startup. I'm passionate about combining quantitative analysis with product thinking to build tools that solve real problems.",
   "email": "shatsky.david@gmail.com",
+  "phone": "650-867-7345",
+  "location": "San Francisco, CA",
   "github": "https://github.com/shatskyy",
-  "linkedin": "https://linkedin.com/in/david-shatsky",
+  "linkedin": "https://linkedin.com/in/david-shatsky-31b01b1b3",
   "skills": [
     "Python",
     "SQL",
-    "Excel"
+    "Machine Learning",
+    "Data Analysis",
+    "NoSQL (MongoDB, Cassandra)",
+    "R",
+    "Stata",
+    "Excel",
+    "Product Strategy",
+    "Agentic AI"
   ],
   "experience": [
     {
-      "title": "Your Job Title",
-      "company": "Company Name",
-      "period": "2023 - Present",
-      "description": "Brief description of what you do in this role."
+      "title": "FX Options Junior Broker",
+      "company": "TP ICAP",
+      "location": "New York, NY",
+      "period": "July 2025 - Present",
+      "description": "Manage creation, pricing, and execution of complex OTC FX options strategies. Built a Python + SQL agentic AI interface for trade history queries, enabling self-serve analytics and 3× faster retrieval. Partner with internal teams to enhance liquidity platforms and reduce manual steps in trade lifecycle."
     },
     {
-      "title": "Previous Job Title",
-      "company": "Previous Company",
-      "period": "2021 - 2023",
-      "description": "Brief description of what you did in this role."
+      "title": "Co-Founder",
+      "company": "Lokin",
+      "location": "Madison, WI",
+      "period": "August 2024 - Present",
+      "description": "Led product strategy and development for a platform automating core startup processes for students. Built lightweight agentic AI tools in Python for profile scraping, teammate matching, competitor analysis, and job description generation. Coordinated design, engineering, and marketing teams from concept to launch."
+    },
+    {
+      "title": "Data Analysis Intern",
+      "company": "Abel Noser",
+      "location": "New York, NY",
+      "period": "June - August 2023",
+      "description": "Utilized Python, SQL, and Excel for post-trade analysis providing investment insights to institutional clients. Conducted migration of over a petabyte of data to Apache Cassandra. Developed anomaly detection system to flag insider trading using lead-lag analysis."
+    },
+    {
+      "title": "Business Development Intern",
+      "company": "Personal Digital Spaces",
+      "location": "New York, NY",
+      "period": "June - September 2022",
+      "description": "Analyzed market data for an emerging blockchain-backed business and pinpointed growth opportunities. Assisted with software testing, ensuring 100% compliance with business requirements for enterprise clients."
     }
-  ]
+  ],
+  "education": {
+    "school": "University of Wisconsin-Madison",
+    "degree": "BA in Data Science",
+    "minor": "Economic Analytics",
+    "gpa": "3.6",
+    "period": "September 2021 - May 2025",
+    "coursework": [
+      "Machine Learning/AI",
+      "Big Data Processing",
+      "Database Development",
+      "Econometrics",
+      "Financial Derivatives",
+      "Statistical Data Modeling"
+    ]
+  }
 }

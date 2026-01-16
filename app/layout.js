@@ -4,8 +4,8 @@ import Footer from '@/components/Footer'
 
 // Metadata for the site
 export const metadata = {
-  title: 'Personal Website',
-  description: 'My personal portfolio, projects, and blog',
+  title: 'David Shatsky | Data Science · Capital Markets · Builder',
+  description: 'Portfolio of David Shatsky - Data Science graduate intereseted in building agentic AI tools, automated systems, and information-driven products.',
 }
 
 // Root layout component - wraps all pages

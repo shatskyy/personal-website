@@ -1,16 +1,58 @@
 [
   {
     "id": 1,
-    "title": "Useful Resource",
-    "url": "https://example.com",
-    "category": "Development",
-    "description": "A helpful resource for developers"
+    "title": "The Illustrated Transformer",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "category": "AI & Machine Learning",
+    "description": "Best visual guide to understanding transformer architecture"
   },
   {
     "id": 2,
-    "title": "Learning Material",
-    "url": "https://example.com",
-    "category": "Learning",
-    "description": "Great tutorial or course"
+    "title": "Andrej Karpathy's Neural Networks Course",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "category": "AI & Machine Learning",
+    "description": "Comprehensive deep learning from scratch by the former Tesla AI director"
+  },
+  {
+    "id": 3,
+    "title": "Kalshi - Prediction Markets",
+    "url": "https://kalshi.com",
+    "category": "Trading & Markets",
+    "description": "Event contracts exchange for prediction markets"
+  },
+  {
+    "id": 4,
+    "title": "Pinecone Documentation",
+    "url": "https://docs.pinecone.io/",
+    "category": "Development",
+    "description": "Vector database for semantic search and AI applications"
+  },
+  {
+    "id": 5,
+    "title": "FastAPI Documentation",
+    "url": "https://fastapi.tiangolo.com/",
+    "category": "Development",
+    "description": "Modern Python web framework for building APIs"
+  },
+  {
+    "id": 6,
+    "title": "Decode and Conquer",
+    "url": "https://www.lewis-lin.com/decode-and-conquer",
+    "category": "Product Management",
+    "description": "PM interview prep - CIRCLES method for product design questions"
+  },
+  {
+    "id": 7,
+    "title": "Exponent PM Prep",
+    "url": "https://www.tryexponent.com/",
+    "category": "Product Management",
+    "description": "Interview prep for PM roles including estimation questions"
+  },
+  {
+    "id": 8,
+    "title": "Kelly Criterion Explained",
+    "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+    "category": "Trading & Markets",
+    "description": "Optimal bet sizing strategy for favorable odds"
   }
 ]
