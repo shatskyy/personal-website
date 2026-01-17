@@ -6,7 +6,9 @@
     "techStack": ["Python", "SQL", "Statistical Modeling", "Kelly Criterion", "API Integration"],
     "link": "https://github.com/shatskyy",
     "image": "/projects/weather-trading.jpg",
-    "featured": true
+    "featured": true,
+    "caseStudy": "weather-trading",
+    "metrics": ["67% Win Rate", "+14% ROI"]
   },
   {
     "id": 2,

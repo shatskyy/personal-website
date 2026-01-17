@@ -1,0 +1,71 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "title": "Associate Product Manager Course",
+      "provider": "Product School",
+      "progress": 65,
+      "status": "in-progress",
+      "description": "Learning product management fundamentals, user research, and go-to-market strategy",
+      "link": "https://www.productschool.com",
+      "startDate": "2025-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Product Strategy & Roadmapping",
+      "provider": "Reforge",
+      "progress": 30,
+      "status": "in-progress",
+      "description": "Advanced product strategy, prioritization frameworks, and roadmap planning",
+      "link": "https://www.reforge.com",
+      "startDate": "2025-01-15"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Inspired: How to Create Tech Products Customers Love",
+      "author": "Marty Cagan",
+      "status": "reading",
+      "progress": 40,
+      "description": "Learning about product discovery and building products customers want"
+    },
+    {
+      "id": 2,
+      "title": "The Lean Startup",
+      "author": "Eric Ries",
+      "status": "completed",
+      "progress": 100,
+      "description": "Build-Measure-Learn framework for product development"
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "Product Strategy",
+      "level": "intermediate",
+      "description": "Learning frameworks for product prioritization and roadmapping"
+    },
+    {
+      "id": 2,
+      "name": "User Research",
+      "level": "beginner",
+      "description": "Conducting user interviews and analyzing feedback"
+    },
+    {
+      "id": 3,
+      "name": "Data-Driven Decision Making",
+      "level": "advanced",
+      "description": "Using analytics and metrics to guide product decisions"
+    }
+  ],
+  "certifications": [
+    {
+      "id": 1,
+      "title": "Google Analytics Certification",
+      "status": "in-progress",
+      "progress": 70,
+      "description": "Learning web analytics and data analysis for product insights"
+    }
+  ]
+}

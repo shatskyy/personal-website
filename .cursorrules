@@ -1,0 +1,218 @@
+# Personal Website - Cursor Rules
+
+## ⚠️ CRITICAL: Code Proposal Process
+**ALWAYS propose code changes and new features elaborately BEFORE executing them.**
+
+### When Making Changes:
+1. **Explain WHAT and WHY**: Describe what you're changing and the reasoning
+2. **Show proposed structure**: Display the code structure/approach before implementing
+3. **Explain integration**: How it fits with existing patterns and architecture
+4. **Get confirmation**: Wait for feedback before implementing
+
+### When Building New Features:
+1. **Propose component structure**: Show where it goes (`components/` or `app/`)
+2. **Explain data needs**: Propose JSON structure if data is required
+3. **Show styling approach**: Which colors, layout patterns, animation strategy
+4. **Explain integration points**: Where it's used, what it interacts with
+5. **Provide code skeleton**: Show component structure before full implementation
+
+### When Modifying Existing Code:
+1. **Show before/after**: Compare current vs proposed code
+2. **Explain reasoning**: Why this change improves the codebase
+3. **Ensure consistency**: Verify it matches existing patterns
+
+## Project Context
+Next.js 14 portfolio for PM recruitment. Uses App Router, Tailwind CSS, Framer Motion, Recharts.
+
+## Critical Patterns
+
+### Color Palette (ALWAYS USE THESE)
+- Navy Dark: `#0A192F` → `text-navy-dark`, `bg-navy-dark`
+- Navy: `#112240` → `text-navy`, `bg-navy`  
+- Navy Light: `#1E3A5F` → `text-navy-light`, `bg-navy-light`
+- Teal: `#64FFDA` → `text-teal-600`, `bg-teal-600`, `border-teal-400`
+- Slate: `#8892B0` → `text-slate`
+- **NEVER use generic blue** - use teal/navy instead
+
+### Standard Layout
+```jsx
+<div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+  {/* Content */}
+</div>
+```
+
+### Standard Card
+```jsx
+<div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-xl hover:border-teal-400 transition">
+  {/* Content */}
+</div>
+```
+
+## Component Patterns
+
+### Client Components (Framer Motion)
+```jsx
+'use client'
+
+import { motion } from 'framer-motion'
+// Component code
+```
+
+### Animation Wrappers (USE THESE)
+```jsx
+// Scroll animations
+<ScrollReveal delay={0.2}>
+  <YourContent />
+</ScrollReveal>
+
+// Card hover effects
+<CardHover>
+  <ProjectCard project={project} />
+</CardHover>
+
+// Hero backgrounds
+<AuroraBackground className="rounded-2xl p-8">
+  <HeroContent />
+</AuroraBackground>
+```
+
+### Page Structure Template
+```jsx
+'use client' // If using animations
+
+import ScrollReveal from '@/components/ScrollReveal'
+
+export default function PageName() {
+  return (
+    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <ScrollReveal>
+        <h1 className="text-4xl font-bold text-navy-dark mb-4">Title</h1>
+      </ScrollReveal>
+      <ScrollReveal delay={0.2}>
+        {/* Content sections */}
+      </ScrollReveal>
+    </div>
+  )
+}
+```
+
+## Import Patterns
+- Components: `import ComponentName from '@/components/ComponentName'`
+- Data: `import data from '@/data/file.json'`
+- Next.js: `import Link from 'next/link'`, `import Image from 'next/image'`
+
+## Image Handling
+```jsx
+<Image
+  src="/images/headshot.jpg"
+  alt="Descriptive alt text"
+  fill
+  className="object-cover"
+  sizes="(max-width: 768px) 100vw, 50vw"
+/>
+// Always provide fallback for missing images
+```
+
+## Data Structure Patterns
+
+### Projects (projects.json)
+```json
+{
+  "id": 1,
+  "title": "Name",
+  "description": "Description",
+  "techStack": ["Tech1", "Tech2"],
+  "link": "https://...",
+  "image": "/projects/image.jpg",
+  "featured": true,
+  "caseStudy": "slug",
+  "metrics": ["Metric1", "Metric2"]
+}
+```
+
+### Articles (articles.json)
+```json
+{
+  "id": 1,
+  "slug": "article-slug",
+  "title": "Title",
+  "excerpt": "Excerpt",
+  "date": "YYYY-MM-DD",
+  "readTime": "X min read",
+  "tags": ["Tag1"],
+  "content": "Content"
+}
+```
+
+## File Organization
+- Pages: `app/` directory (App Router)
+- Components: `components/` directory
+- Data: `data/` directory (JSON files)
+- Static: `public/` directory
+
+## Typography & Styling
+- Headings: `font-bold text-navy-dark`
+- Body: `text-gray-600` or `text-gray-700`
+- Links: `text-teal-600 hover:text-teal-800`
+- Buttons: `bg-navy-dark text-white px-6 py-3 rounded-lg hover:bg-navy-light`
+- Use Tailwind utilities, avoid custom CSS
+
+## Animation Rules
+- Use Framer Motion for ALL animations
+- Wrap animated sections with ScrollReveal
+- Use `delay` prop for staggered animations
+- Set `once: true` for scroll animations
+- Respect `prefers-reduced-motion` (handled in globals.css)
+
+## Accessibility Requirements
+- Alt text for all images
+- Semantic HTML (proper heading hierarchy)
+- Keyboard navigation support
+- WCAG color contrast
+- ARIA labels when needed
+
+## Key Principles
+1. **Mobile-first**: Design for mobile, enhance for desktop
+2. **Consistency**: Use fintech color scheme (navy/teal) throughout
+3. **Performance**: Optimize images, efficient animations
+4. **PM Focus**: Emphasize metrics, results, product thinking
+
+## When Adding Features - PROPOSAL TEMPLATE
+
+Before implementing, propose:
+
+1. **Component Structure**
+   - Where does it go? (`components/` or `app/`)
+   - What props does it need?
+   - Is it client or server component?
+
+2. **Data Structure** (if needed)
+   - What JSON structure?
+   - Where does data live? (`data/` directory)
+
+3. **Styling Approach**
+   - Which colors from palette?
+   - Layout pattern to follow?
+   - Animation strategy?
+
+4. **Integration Points**
+   - Where is it used?
+   - What existing components does it interact with?
+   - Any routing changes needed?
+
+5. **Example Code Structure**
+   - Show the component skeleton
+   - Show how it fits with existing patterns
+
+## Cursor-Specific Guidelines
+
+- **ALWAYS propose before implementing** - explain approach first
+- Use fintech color palette (navy/teal) - never generic blue
+- Prefer Framer Motion over CSS animations
+- Wrap animated sections with ScrollReveal
+- Use Tailwind utilities over custom CSS
+- Check existing components for patterns before creating new ones
+- Mobile-responsive by default
+- Emphasize product metrics and results (PM recruitment focus)
+- When suggesting code, show the full component structure, not just snippets
+- Explain how new code fits with existing architecture

@@ -1,0 +1,124 @@
+[
+  {
+    "id": 1,
+    "title": "Building a Weather Trading System: From Idea to 67% Win Rate",
+    "type": "article",
+    "url": "/articles/building-weather-trading-system",
+    "description": "How I built an automated trading system for weather prediction markets, from identifying market inefficiencies to achieving a 67% win rate.",
+    "category": "Trading",
+    "tags": ["Trading", "ML", "Finance"],
+    "date": "2025-01-15",
+    "readTime": "8 min read"
+  },
+  {
+    "id": 2,
+    "title": "Product Thinking in Prediction Markets",
+    "type": "article",
+    "url": "/articles/product-thinking-prediction-markets",
+    "description": "Exploring how product management principles apply to building trading systems and prediction market products.",
+    "category": "Product",
+    "tags": ["Product", "Trading", "Strategy"],
+    "date": "2025-01-10",
+    "readTime": "6 min read"
+  },
+  {
+    "id": 3,
+    "title": "The Illustrated Transformer",
+    "type": "link",
+    "url": "https://jalammar.github.io/illustrated-transformer/",
+    "description": "Best visual guide to understanding transformer architecture",
+    "category": "AI & Machine Learning",
+    "tags": ["AI", "ML", "Deep Learning"],
+    "date": "2024-12-01"
+  },
+  {
+    "id": 4,
+    "title": "Andrej Karpathy's Neural Networks Course",
+    "type": "link",
+    "url": "https://karpathy.ai/zero-to-hero.html",
+    "description": "Comprehensive deep learning from scratch by the former Tesla AI director",
+    "category": "AI & Machine Learning",
+    "tags": ["AI", "ML", "Education"],
+    "date": "2024-11-15"
+  },
+  {
+    "id": 5,
+    "title": "Kalshi - Prediction Markets",
+    "type": "link",
+    "url": "https://kalshi.com",
+    "description": "Event contracts exchange for prediction markets",
+    "category": "Trading & Markets",
+    "tags": ["Trading", "Markets"],
+    "date": "2024-10-20"
+  },
+  {
+    "id": 6,
+    "title": "Pinecone Documentation",
+    "type": "link",
+    "url": "https://docs.pinecone.io/",
+    "description": "Vector database for semantic search and AI applications",
+    "category": "Development",
+    "tags": ["Development", "AI", "Database"],
+    "date": "2024-09-10"
+  },
+  {
+    "id": 7,
+    "title": "FastAPI Documentation",
+    "type": "link",
+    "url": "https://fastapi.tiangolo.com/",
+    "description": "Modern Python web framework for building APIs",
+    "category": "Development",
+    "tags": ["Development", "Python", "API"],
+    "date": "2024-08-05"
+  },
+  {
+    "id": 8,
+    "title": "Decode and Conquer",
+    "type": "link",
+    "url": "https://www.lewis-lin.com/decode-and-conquer",
+    "description": "PM interview prep - CIRCLES method for product design questions",
+    "category": "Product Management",
+    "tags": ["Product", "Interview", "Education"],
+    "date": "2024-07-15"
+  },
+  {
+    "id": 9,
+    "title": "Exponent PM Prep",
+    "type": "link",
+    "url": "https://www.tryexponent.com/",
+    "description": "Interview prep for PM roles including estimation questions",
+    "category": "Product Management",
+    "tags": ["Product", "Interview", "Education"],
+    "date": "2024-06-20"
+  },
+  {
+    "id": 10,
+    "title": "Kelly Criterion Explained",
+    "type": "link",
+    "url": "https://en.wikipedia.org/wiki/Kelly_criterion",
+    "description": "Optimal bet sizing strategy for favorable odds",
+    "category": "Trading & Markets",
+    "tags": ["Trading", "Finance", "Strategy"],
+    "date": "2024-05-10"
+  },
+  {
+    "id": 11,
+    "title": "Introduction to Machine Learning",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=example",
+    "description": "Great introduction to machine learning concepts",
+    "category": "AI & Machine Learning",
+    "tags": ["AI", "ML", "Education", "Video"],
+    "date": "2024-04-15"
+  },
+  {
+    "id": 12,
+    "title": "Building Products with AI",
+    "type": "video",
+    "url": "https://www.youtube.com/watch?v=example2",
+    "description": "How to leverage AI in product development",
+    "category": "Product Management",
+    "tags": ["Product", "AI", "Video"],
+    "date": "2024-03-20"
+  }
+]

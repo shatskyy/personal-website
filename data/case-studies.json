@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "slug": "weather-trading",
+    "title": "Weather Prediction Trading System",
+    "subtitle": "Building an Automated Trading System with 67% Win Rate",
+    "metrics": {
+      "winRate": "67%",
+      "roi": "+14%",
+      "brierImprovement": "26%",
+      "trades": "150+"
+    },
+    "problem": {
+      "title": "The Problem",
+      "description": "Weather prediction markets on Kalshi presented an opportunity: market prices often didn't reflect the true probability of temperature outcomes. Traders were pricing brackets based on intuition rather than calibrated forecasts, creating systematic mispricings.",
+      "challenges": [
+        "Raw weather forecasts are biased and need calibration",
+        "Market prices don't always reflect true probabilities",
+        "Position sizing requires careful risk management",
+        "Need to identify edges systematically"
+      ]
+    },
+    "approach": {
+      "title": "The Approach",
+      "sections": [
+        {
+          "title": "Ensemble Forecasting",
+          "description": "Combined multiple weather models (GFS, ICON, GEM) to create a robust ensemble forecast. Each model has different strengths - GFS for long-range, ICON for European accuracy, GEM for consistency.",
+          "details": [
+            "Weighted ensemble based on historical performance",
+            "Real-time API integration for live forecasts",
+            "Temperature extraction at 850mb level for accuracy"
+          ]
+        },
+        {
+          "title": "Forecast Calibration",
+          "description": "Implemented seasonal bias correction and isotonic regression to transform raw forecasts into calibrated probabilities. Achieved 26% improvement in Brier score.",
+          "details": [
+            "Seasonal bias correction for each city",
+            "Isotonic regression for probability calibration",
+            "Continuous monitoring and recalibration"
+          ]
+        },
+        {
+          "title": "Edge Detection",
+          "description": "Compared calibrated model probabilities against market-implied probabilities. Only traded when edge exceeded threshold (typically 5-10%).",
+          "details": [
+            "Real-time market price monitoring",
+            "Probability conversion from market prices",
+            "Edge calculation: model_prob - market_prob"
+          ]
+        },
+        {
+          "title": "Position Sizing",
+          "description": "Used Kelly Criterion for optimal position sizing based on edge and bankroll. Implemented fractional Kelly (typically 0.25-0.5) for risk management.",
+          "details": [
+            "Kelly fraction = (edge / odds) * bankroll",
+            "Fractional Kelly for safety",
+            "Dynamic position sizing based on confidence"
+          ]
+        }
+      ]
+    },
+    "results": {
+      "title": "Results",
+      "summary": "The system achieved a 67% win rate and +14% ROI on live capital over 150+ trades. Key learnings included the importance of calibration, systematic edge detection, and disciplined position sizing.",
+      "metrics": [
+        "67% win rate (vs. ~50% baseline)",
+        "+14% ROI on live capital",
+        "26% Brier score improvement",
+        "150+ executed trades"
+      ],
+      "learnings": [
+        "Calibration is critical - raw forecasts are biased",
+        "Systematic edge detection beats intuition",
+        "Position sizing matters as much as edge",
+        "Market inefficiencies exist but require patience"
+      ]
+    },
+    "techStack": ["Python", "SQL", "Statistical Modeling", "Kelly Criterion", "API Integration"],
+    "tags": ["Trading", "ML", "Finance", "Product"]
+  }
+]

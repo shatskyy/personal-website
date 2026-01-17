@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "slug": "building-weather-trading-system",
+    "title": "Building a Weather Trading System: From Idea to 67% Win Rate",
+    "excerpt": "How I built an automated trading system for weather prediction markets, from identifying market inefficiencies to achieving a 67% win rate through ensemble forecasting and systematic edge detection.",
+    "date": "2025-01-15",
+    "readTime": "8 min read",
+    "tags": ["Trading", "ML", "Finance", "Product"],
+    "content": "## The Problem\n\nWeather prediction markets on Kalshi presented a unique opportunity. Market prices often didn't reflect true probabilities, creating systematic mispricings that could be exploited with proper forecasting and calibration.\n\n## The Approach\n\nI built an ensemble forecasting system combining multiple weather models (GFS, ICON, GEM), calibrated forecasts using seasonal bias correction and isotonic regression, and implemented systematic edge detection with Kelly criterion position sizing.\n\n## Key Learnings\n\n1. **Calibration is critical** - Raw forecasts are biased and need adjustment\n2. **Systematic beats intuition** - Edge detection algorithms outperform gut feelings\n3. **Position sizing matters** - Kelly criterion helped optimize returns while managing risk\n4. **Patience pays off** - Market inefficiencies exist but require waiting for the right opportunities\n\n## Results\n\n- 67% win rate (vs. ~50% baseline)\n- +14% ROI on live capital\n- 26% Brier score improvement\n- 150+ executed trades\n\nThe system demonstrated that systematic approaches to prediction markets can be profitable when combined with proper calibration and risk management."
+  },
+  {
+    "id": 2,
+    "slug": "product-thinking-prediction-markets",
+    "title": "Product Thinking in Prediction Markets",
+    "excerpt": "Exploring how product management principles apply to building trading systems and prediction market products. From user needs (traders) to feature prioritization (edge detection vs. execution speed).",
+    "date": "2025-01-10",
+    "readTime": "6 min read",
+    "tags": ["Product", "Trading", "Strategy"],
+    "content": "## User-Centric Trading Systems\n\nWhen building trading systems, it's easy to focus on the technical aspects - algorithms, APIs, databases. But applying product thinking reveals that traders (users) have specific needs:\n\n- **Speed**: Need to execute before edge disappears\n- **Reliability**: System must work consistently\n- **Transparency**: Want to understand why trades are made\n- **Control**: Need ability to override or adjust parameters\n\n## Feature Prioritization\n\nJust like in product management, not all features are equal:\n\n1. **Edge detection** (Core feature) - Without this, the product has no value\n2. **Execution speed** (Critical) - Edge decays quickly\n3. **Risk management** (Important) - Protects capital\n4. **Reporting/analytics** (Nice to have) - Helps improve over time\n\n## Iterative Improvement\n\nTrading systems benefit from the same iterative approach as products:\n\n- Start with MVP (basic edge detection)\n- Measure performance (win rate, ROI)\n- Learn from failures (analyze losing trades)\n- Iterate (improve calibration, add features)\n\n## Key Insight\n\nProduct thinking helps identify what actually matters. Many trading systems fail because they optimize for the wrong metrics or build features traders don't need."
+  },
+  {
+    "id": 3,
+    "slug": "lessons-building-lokin",
+    "title": "Lessons from Building Lokin: Agentic AI for Startups",
+    "excerpt": "What I learned co-founding Lokin, a platform automating startup processes with agentic AI. From product-market fit to technical challenges and team coordination.",
+    "date": "2025-01-05",
+    "readTime": "10 min read",
+    "tags": ["Startup", "AI", "Product", "Lessons"],
+    "content": "## The Vision\n\nLokin started with a simple observation: students starting companies waste time on repetitive tasks like finding teammates, researching competitors, and writing job descriptions. What if AI could automate these?\n\n## Product-Market Fit Challenges\n\n1. **Defining the MVP**: Started too broad, had to narrow to core use cases\n2. **User acquisition**: Students are price-sensitive, needed freemium model\n3. **Value demonstration**: AI outputs needed to be clearly better than manual work\n\n## Technical Learnings\n\n### Embeddings Matter\n- MiniLM embeddings worked well for semantic search\n- Pinecone DB handled 76K+ products efficiently\n- <300ms latency was critical for user experience\n\n### API Design\n- FastAPI provided great developer experience\n- RESTful endpoints made integration easy\n- Error handling and rate limiting were essential\n\n## Product Management Insights\n\n1. **Talk to users early**: Assumptions about needs were often wrong\n2. **Ship fast, iterate faster**: First version was far from perfect\n3. **Measure what matters**: User engagement > feature count\n4. **Cross-functional coordination**: Design, engineering, marketing all matter\n\n## Biggest Lesson\n\nBuilding a product is about solving real problems, not showcasing technology. The AI was impressive, but users cared about outcomes - finding teammates, understanding competitors, saving time."
+  }
+]
